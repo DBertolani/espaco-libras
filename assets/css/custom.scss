@@ -1,16 +1,18 @@
-/* Trava a altura das imagens de preview na página inicial */
+/* Exibe a imagem inteira na página inicial sem cortes */
 .post-preview img, 
 #post-list .card-img-top {
-  max-height: 240px !important;
-  object-fit: cover !important;
-  object-position: center 20%; 
+  max-height: 220px !important;
+  object-fit: contain !important; 
   width: 100%;
+  background-color: #000; /* Fundo preto para as bordas, mantendo o padrão interno */
+  border-radius: 5px;
 }
 
-/* Compacta ainda mais a imagem para telas pequenas de celular */
+/* Proporção adaptada para a tela do celular */
 @media (max-width: 768px) {
   .post-preview img, 
   #post-list .card-img-top {
     max-height: 180px !important;
+    background-color: #000;
   }
 }
