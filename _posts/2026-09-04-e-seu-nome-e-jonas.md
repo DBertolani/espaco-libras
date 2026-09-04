@@ -59,7 +59,7 @@ function abrirTelaCheiaJonas() {
     display: flex;
     position: absolute;
     right: 10px;
-    bottom: 10px;
+    top: 10px; /* Mudado de bottom para top */
     z-index: 20;
 
     width: 42px;
