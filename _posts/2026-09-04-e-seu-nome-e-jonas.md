@@ -12,18 +12,18 @@ Este clássico retrata a trajetória de Jonas, um menino surdo diagnosticado err
   <iframe
     id="videoJonas"
     src="https://archive.org/embed/e-seu-nome-e-jonas-3"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
     frameborder="0"
-    allow="fullscreen"
-    allowfullscreen
     webkitallowfullscreen="true"
-    mozallowfullscreen="true">
+    mozallowfullscreen="true"
+    allowfullscreen="true"
+    allow="fullscreen">
   </iframe>
 
   <button
-    type="button"
     class="fullscreen-mobile"
     onclick="abrirTelaCheiaJonas()"
-    aria-label="Abrir vídeo em tela cheia">
+    aria-label="Tela cheia">
     ⛶
   </button>
 
@@ -33,14 +33,9 @@ Este clássico retrata a trajetória de Jonas, um menino surdo diagnosticado err
 function abrirTelaCheiaJonas() {
   const iframe = document.getElementById('videoJonas');
 
-  if (!iframe) return;
-
   if (iframe.requestFullscreen) {
-    iframe.requestFullscreen().catch(function(error) {
-      console.log('Não foi possível abrir em tela cheia:', error);
-    });
-  } 
-  else if (iframe.webkitRequestFullscreen) {
+    iframe.requestFullscreen();
+  } else if (iframe.webkitRequestFullscreen) {
     iframe.webkitRequestFullscreen();
   }
 }
@@ -49,35 +44,17 @@ function abrirTelaCheiaJonas() {
 <style>
 .video-container {
   position: relative;
-  width: 100%;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   margin-top: 2rem;
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-/* Botão escondido no computador */
 .fullscreen-mobile {
   display: none;
 }
 
-/* Celular */
 @media (max-width: 768px) {
-
-  .video-container {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-  }
-
   .fullscreen-mobile {
     display: flex;
     position: absolute;
@@ -91,21 +68,14 @@ function abrirTelaCheiaJonas() {
     align-items: center;
     justify-content: center;
 
-    border: none;
+    border: 0;
     border-radius: 50%;
 
     background: rgba(0, 0, 0, 0.75);
     color: white;
 
     font-size: 24px;
-    line-height: 1;
-
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .fullscreen-mobile:active {
-    transform: scale(0.95);
   }
 }
 </style>
