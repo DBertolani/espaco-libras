@@ -1,6 +1,6 @@
 ---
 title: E Seu Nome É Jonas (1979)
-date: 2026-09-04 12:00:00 -0300
+date: 2026-09-04 07:00:00 -0300
 categories: [Filmes, Clássicos]
 tags: [diagnóstico, barreira linguística]
 ---
