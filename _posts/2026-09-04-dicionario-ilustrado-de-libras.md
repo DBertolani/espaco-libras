@@ -4,7 +4,7 @@ date: 2026-09-04 06:00:00 -0300
 categories: [Biblioteca, Materiais Pedagógicos]
 tags: [dicionário, estudo, vocabulário, referência]
 image:
-  path: https://m.media-amazon.com/images/I/81IOfZ-G+qL._AC_UF1000,1000_QL80_.jpg
+  path: https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/I/714Xzdyd85L._SL1500_.jpg
   alt: Capa do Dicionário Ilustrado de Libras
 ---
 
