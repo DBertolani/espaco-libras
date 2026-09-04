@@ -23,7 +23,10 @@ Descubra a tocante história de Helen Keller e sua extraordinária professora, A
     allowfullscreen="true"
     allow="fullscreen">
   </iframe>
+  
+  {% unless page.video_url contains 'youtube.com' or page.video_url contains 'youtu.be' %}
   <button class="fullscreen-mobile" onclick="abrirTelaCheia()" aria-label="Tela cheia">⛶</button>
+  {% endunless %}
 </div>
 
 <script>
@@ -35,9 +38,7 @@ function abrirTelaCheia() {
 </script>
 
 <style>
-/* Trava o tamanho da imagem de capa no topo do post */
-.preview-img, header img { max-height: 350px !important; object-fit: contain !important; width: 100% !important; background: #000; margin-bottom: 2rem; }
-
+.post-header img { object-fit: contain !important; max-height: 400px; background: #000; }
 .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 2rem; }
 .fullscreen-mobile { display: none; }
 @media (max-width: 768px) {
