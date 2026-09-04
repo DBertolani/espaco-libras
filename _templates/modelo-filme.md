@@ -23,7 +23,10 @@ Escreva a sinopse do filme e a sua análise aqui...
     allowfullscreen="true"
     allow="fullscreen">
   </iframe>
+  
+  {% unless page.video_url contains 'youtube.com' or page.video_url contains 'youtu.be' %}
   <button class="fullscreen-mobile" onclick="abrirTelaCheia()" aria-label="Tela cheia">⛶</button>
+  {% endunless %}
 </div>
 
 <script>
