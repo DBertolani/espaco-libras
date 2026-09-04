@@ -6,8 +6,9 @@ tags: [surdez, anne sullivan]
 image:
   path: "https://culturasurda.net/wp-content/uploads/2015/03/miracle-worker3.jpg"
   alt: "Cena do filme"
-video_url: "https://youtu.be/G0hBcba-cgc?si=406N0wHIZ3EN_SDh"
+video_url: "https://www.youtube.com/embed/G0hBcba-cgc"
 ---
+
 Descubra a tocante história de Helen Keller e sua extraordinária professora, Anne Sullivan, em "O Milagre de Anne Sullivan" (2000). Este filme retrata a vida de Helen, uma jovem que, apesar de ser surda e cega, encontrou uma maneira de se comunicar com o mundo graças à determinação e paciência de Anne Sullivan. A história é uma poderosa demonstração de como a perseverança, o amor e a educação podem transformar vidas. Inspirado em fatos reais, o filme mostra o início da jornada de Helen e a relação única entre aluna e professora, que superaram juntos todos os desafios.
 
 <!-- O CÓDIGO ABAIXO NÃO PRECISA MAIS SER EDITADO -->
@@ -34,7 +35,9 @@ function abrirTelaCheia() {
 </script>
 
 <style>
-.post-header img { object-fit: contain !important; max-height: 400px; background: #000; }
+/* Trava o tamanho da imagem de capa no topo do post */
+.preview-img, header img { max-height: 350px !important; object-fit: contain !important; width: 100% !important; background: #000; margin-bottom: 2rem; }
+
 .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 2rem; }
 .fullscreen-mobile { display: none; }
 @media (max-width: 768px) {
