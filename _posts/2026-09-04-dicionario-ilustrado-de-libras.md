@@ -3,7 +3,9 @@ title: "Dicionário Ilustrado de Libras: Guia Completo para Estudo e Prática"
 date: 2026-09-04 06:00:00 -0300
 categories: [Biblioteca, Materiais Pedagógicos]
 tags: [dicionário, estudo, vocabulário, referência]
-author: Espaço Libras
+image:
+  path: https://m.media-amazon.com/images/I/81IOfZ-G+qL._AC_UF1000,1000_QL80_.jpg
+  alt: Capa do Dicionário Ilustrado de Libras
 ---
 
 O **Dicionário Ilustrado de Libras**, de autoria de Flávia Brandão, é uma das obras de referência mais completas para quem deseja iniciar ou aprofundar os estudos na Língua Brasileira de Sinais. 
