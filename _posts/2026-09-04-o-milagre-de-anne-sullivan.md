@@ -1,8 +1,8 @@
 ---
 title: "The Miracle Worker (O Milagre de Anne Sullivan)  [2000]  {English+Legenda ptBR} FULLHD"
 date: 2026-09-04 12:00:00 -0300
-categories: [Filmes, Categoria]
-tags: [tag1, tag2]
+categories: [Filmes, Clássicos]
+tags: [surdez, anne sullivan]
 image:
   path: "https://culturasurda.net/wp-content/uploads/2015/03/miracle-worker3.jpg"
   alt: "Cena do filme"
