@@ -26,5 +26,11 @@
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
+  },
+  "chat.tools.terminal.autoApprove": {
+    "/^cd /workspaces/espaco-libras && bash \\./tools/test\\.sh 2>&1 \\| head -100$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
   }
 }
