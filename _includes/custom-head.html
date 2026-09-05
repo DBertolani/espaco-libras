@@ -1,2 +1,83 @@
-<!-- Custom CSS -->
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<!--
+  ============================================
+  PERFORMANCE OPTIMIZATIONS - MOBILE FIRST
+  ============================================
+-->
+
+<!--
+  1. Postergar CSS não crítica com media="print" + load script
+  Isso previne bloqueio de renderização enquanto carrega o CSS completo
+-->
+
+<!-- Bootstrap - Postergar carregamento -->
+<link
+  rel="preload"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"></noscript>
+
+<!-- Font Awesome - Postergar carregamento -->
+<link
+  rel="preload"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
+<noscript
+  ><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css"
+></noscript>
+
+<!-- Loading Attribute Polyfill - CSS não crítica, postergar -->
+<link
+  rel="preload"
+  href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2/dist/loading-attribute-polyfill.min.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
+<noscript
+  ><link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2/dist/loading-attribute-polyfill.min.css"
+></noscript>
+
+<!-- 2. Otimizar Google Fonts: usar font-display=swap para evitar FOUT/FOIT bloqueante -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
+<noscript
+  ><link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+></noscript>
+
+<!-- 3. Custom CSS - Postergar também -->
+<link
+  rel="preload"
+  href="{{ '/assets/css/custom.css' | relative_url }}"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
+<noscript><link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"></noscript>
+
+<!--
+  ============================================
+  DEFER RENDER-BLOCKING RESOURCES
+  ============================================
+-->
+
+<!-- Script para carregar CSS posteragado (fallback para browsers antigos) -->
+<script>
+  (function () {
+    var links = document.querySelectorAll('link[data-defer]');
+    links.forEach(function (link) {
+      link.rel = 'stylesheet';
+    });
+  })();
+</script>

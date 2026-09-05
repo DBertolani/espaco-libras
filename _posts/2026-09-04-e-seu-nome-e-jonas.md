@@ -3,6 +3,9 @@ title: E Seu Nome É Jonas (1979)
 date: 2026-09-04 07:00:00 -0300
 categories: [Filmes, Clássicos]
 tags: [diagnóstico, barreira linguística]
+image:
+  path: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjRDGHpBUVgZ1G4n812T7evCHitxXr1oa2o5atGkZz-EA0PXGX195qv0509UMmxd2yP4Vo4mfdIDTlxJ1RKp4DG5G_uBji3PMPV52zzRVtBhK-LhN7JBQFKQKRf_sxdm2m9dPxl_yLGwc/s1600/E+seu+nome+%25C3%25A9+Jonas.jpg"
+  alt: "Capa do filme E Seu Nome É Jonas"
 video_url: "https://archive.org/embed/e-seu-nome-e-jonas-3"
 ---
 
@@ -35,6 +38,12 @@ function abrirTelaCheia() {
 </script>
 
 <style>
+.post-header img {
+  object-fit: contain !important;
+  max-height: 400px;
+  background: #000;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;

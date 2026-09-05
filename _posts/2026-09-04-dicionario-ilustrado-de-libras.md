@@ -6,6 +6,7 @@ tags: [dicionário, estudo, vocabulário, referência]
 image:
   path: https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/I/714Xzdyd85L._SL1500_.jpg
   alt: Capa do Dicionário Ilustrado de Libras
+link_afiliado: "https://link.amazon/B0cK3IHGb"
 ---
 
 O **Dicionário Ilustrado de Libras**, de autoria de Flávia Brandão, é uma das obras de referência mais completas para quem deseja iniciar ou aprofundar os estudos na Língua Brasileira de Sinais. 
@@ -31,7 +32,7 @@ Com cerca de **3.200 verbetes** e **4.600 remissões**, a obra se destaca pela d
 ---
 
 <div style="text-align: center; margin: 2.5rem 0;">
-  <a href="https://amzn.to/3X9vK8L" target="_blank" rel="noopener noreferrer" style="background-color: #FF9900; color: #111; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <a href="{{ page.link_afiliado }}" target="_blank" rel="noopener noreferrer" style="background-color: #FF9900; color: #111; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     🛒 Ver Oferta do Dicionário na Amazon
   </a>
 </div>
