@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<article class="produto-page">
+  <div class="produto-page__media">
+    {% if page.imagem %}
+      <img
+        src="{{ page.imagem | relative_url }}"
+        alt="{{ page.alt | default: page.titulo | default: page.title | escape }}"
+        loading="eager"
+      >
+    {% endif %}
+  </div>
+
+  <div class="produto-page__info">
+    {% if page.categoria %}
+      <p class="produto-page__categoria">{{ page.categoria }}</p>
+    {% endif %}
+
+    <h1>{{ page.titulo | default: page.title }}</h1>
+
+    {% if page.descricao %}
+      <p class="produto-page__descricao">{{ page.descricao }}</p>
+    {% endif %}
+
+    <div class="produto-page__content">
+      {{ content }}
+    </div>
+
+    {% if page.url_loja %}
+      <a class="produto-cta" href="{{ page.url_loja }}" target="_blank" rel="sponsored noopener noreferrer">
+        Ver na loja
+      </a>
+    {% endif %}
+  </div>
+</article>
