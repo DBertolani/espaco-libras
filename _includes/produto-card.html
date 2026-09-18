@@ -1,27 +1,37 @@
 <article class="produto-card">
-  <a class="produto-card__link" href="{{ include.produto.url | relative_url }}" aria-label="Ver {{ include.produto.titulo | default: include.produto.title | escape }}">
-    <div class="produto-card__media">
-      {% if include.produto.imagem %}
-        <img
-          src="{{ include.produto.imagem | relative_url }}"
-          alt="{{ include.produto.alt | default: include.produto.titulo | default: include.produto.title | escape }}"
-          loading="lazy"
-        >
-      {% endif %}
-    </div>
 
-    <div class="produto-card__body">
-      {% if include.produto.categoria %}
-        <span class="produto-card__categoria">{{ include.produto.categoria }}</span>
-      {% endif %}
+  <div class="produto-card__media">
+    {% if include.imagem %}
+      <img
+        src="{{ include.imagem }}"
+        alt="{{ include.alt | default: include.titulo | default: include.title | escape }}"
+        loading="lazy"
+      >
+    {% endif %}
+  </div>
 
-      <h2 class="produto-card__title">{{ include.produto.titulo | default: include.produto.title }}</h2>
+  <div class="produto-card__body">
 
-      {% if include.produto.descricao %}
-        <p class="produto-card__description">{{ include.produto.descricao }}</p>
-      {% endif %}
+    {% if include.categoria %}
+      <span class="produto-card__categoria">{{ include.categoria }}</span>
+    {% endif %}
 
-      <span class="produto-card__cta">Ver produto</span>
-    </div>
-  </a>
+    <h2 class="produto-card__title">
+      {{ include.titulo | default: include.title }}
+    </h2>
+
+    {% if include.descricao %}
+      <p class="produto-card__description">{{ include.descricao }}</p>
+    {% endif %}
+
+    <a
+      class="produto-card__cta"
+      href="{{ include.url | relative_url }}"
+      aria-label="Ver {{ include.titulo | default: include.title | escape }}"
+    >
+      Ver produto
+    </a>
+
+  </div>
+
 </article>
