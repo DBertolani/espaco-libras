@@ -1,0 +1,27 @@
+<article class="produto-card">
+  <a class="produto-card__link" href="{{ include.produto.url | relative_url }}" aria-label="Ver {{ include.produto.titulo | default: include.produto.title | escape }}">
+    <div class="produto-card__media">
+      {% if include.produto.imagem %}
+        <img
+          src="{{ include.produto.imagem | relative_url }}"
+          alt="{{ include.produto.alt | default: include.produto.titulo | default: include.produto.title | escape }}"
+          loading="lazy"
+        >
+      {% endif %}
+    </div>
+
+    <div class="produto-card__body">
+      {% if include.produto.categoria %}
+        <span class="produto-card__categoria">{{ include.produto.categoria }}</span>
+      {% endif %}
+
+      <h2 class="produto-card__title">{{ include.produto.titulo | default: include.produto.title }}</h2>
+
+      {% if include.produto.descricao %}
+        <p class="produto-card__description">{{ include.produto.descricao }}</p>
+      {% endif %}
+
+      <span class="produto-card__cta">Ver produto</span>
+    </div>
+  </a>
+</article>
