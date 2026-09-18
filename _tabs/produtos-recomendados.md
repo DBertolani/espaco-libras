@@ -6,17 +6,14 @@ order: 4
 
 Produtos, recursos tecnológicos e materiais selecionados para estudantes, intérpretes, professores e pessoas interessadas em Libras.
 
-{% assign encontrou = false %}
-<ul>
-{% for post in site.posts %}
-  {% if post.link_afiliado %}
-    {% assign encontrou = true %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-  {% endif %}
+{% if site.produtos and site.produtos.size > 0 %}
+<div class="produtos-grid" aria-label="Produtos recomendados">
+{% assign produtos = site.produtos | sort: "ordem" %}
+{% for produto in produtos %}
+  {% include produto-card.html produto=produto %}
 {% endfor %}
-</ul>
-
-{% unless encontrou %}
+</div>
+{% else %}
 > Em breve, novos produtos recomendados serão publicados nesta seção.
 {: .prompt-info }
-{% endunless %}
+{% endif %}
