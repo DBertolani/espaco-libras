@@ -21,4 +21,4 @@ O **Aprendendo o Alfabeto em Libras**, da Toyster, é um jogo educativo para ass
 
 A descrição e os dados técnicos foram conferidos na página oficial da Toyster.
 
-> **Link comercial provisório:** o endereço acima ainda deve ser substituído pelo link de afiliado correspondente.
+> **Link de afiliado:** esta recomendação pode gerar comissão para o Espaço Libras, sem custo adicional para você.
