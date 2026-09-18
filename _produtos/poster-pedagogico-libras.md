@@ -2,9 +2,10 @@
 titulo: "Pôster pedagógico de Libras"
 categoria: "Materiais Didáticos"
 ordem: 8
+imagem: https://http2.mlstatic.com/D_NQ_NP_2X_640465-MLB89472786913_082025-F-poster-pedagogico-libras-alfabeto-numerais-sinais-escolar-papel-ensino-fundamental.webp
 alt: "Pôster pedagógico com alfabeto e sinais de Libras"
 descricao: "Material visual para ambientes de estudo, salas de aula e atividades de introdução à Libras."
-url_loja: "https://produto.mercadolivre.com.br/MLB-5282537774-poster-pedagogico-libras-alfabeto-numerais-sinais-escolar-papel-ensino-fundamental-_JM"
+url_loja: "https://meli.la/1pmbRn9"
 ---
 
 O **Pôster pedagógico de Libras** é uma opção de material visual para salas de aula, espaços de estudo e atividades educativas.

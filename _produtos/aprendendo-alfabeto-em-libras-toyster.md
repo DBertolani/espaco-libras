@@ -2,10 +2,10 @@
 titulo: "Aprendendo o Alfabeto em Libras"
 categoria: "Materiais Didáticos"
 ordem: 3
-imagem: "https://www.toyster.com.br/wp-content/uploads/2023/10/3176-Aprendendo-o-Alfabeto-em-Libras-Embalagem-Grande-800x634-1.png"
+imagem: "https://m.media-amazon.com/images/I/61fV-p5obLL._AC_SL1000_.jpg"
 alt: "Jogo Aprendendo o Alfabeto em Libras da Toyster"
 descricao: "Jogo educativo que associa letras do alfabeto em Libras a palavras, indicado para crianças a partir de 4 anos."
-url_loja: "https://www.magazineluiza.com.br/aprendendo-o-alfabeto-em-libras-toyster/p/fh2601ca41/br/lemb/"
+url_loja: "https://link.amazon/B01bAEBNL"
 ---
 
 O **Aprendendo o Alfabeto em Libras**, da Toyster, é um jogo educativo para associar letras do alfabeto em Libras a palavras.
