@@ -16,6 +16,6 @@ O **Relógio Despertador Vibratório para Surdos** utiliza vibração como uma d
 - Cor preta.
 - Estoque disponível no momento da pesquisa.
 
-O anúncio consultado apresentava preço de R$ 194,75 e avaliação 4,5/5 com 50 opiniões no momento da pesquisa. citeturn3search10
+O anúncio consultado apresentava preço de R$ 194,75 e avaliação 4,5/5 com 50 opiniões no momento da pesquisa.
 
 > **Link comercial provisório:** ainda não é o link de afiliado do Espaço Libras.
