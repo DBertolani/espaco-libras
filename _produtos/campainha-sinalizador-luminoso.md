@@ -11,7 +11,7 @@ As **campainhas com sinalização luminosa** oferecem um alerta visual que pode 
 
 ### O que encontramos
 
-Há diferentes modelos em marketplaces, incluindo versões sem fio com várias luzes coloridas e modelos com LED. Os preços e características variam bastante entre os anúncios. citeturn4search4turn4search5
+Há diferentes modelos em marketplaces, incluindo versões sem fio com várias luzes coloridas e modelos com LED. Os preços e características variam bastante entre os anúncios.
 
 ### Atenção
 
