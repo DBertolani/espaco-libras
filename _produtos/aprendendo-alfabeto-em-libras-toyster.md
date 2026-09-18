@@ -19,6 +19,6 @@ O **Aprendendo o Alfabeto em Libras**, da Toyster, é um jogo educativo para ass
 - **Dimensões:** 13,2 × 20,0 × 4,5 cm
 - **Peso:** 310 g
 
-A descrição e os dados técnicos foram conferidos na página oficial da Toyster. citeturn1view0
+A descrição e os dados técnicos foram conferidos na página oficial da Toyster.
 
 > **Link comercial provisório:** o endereço acima ainda deve ser substituído pelo link de afiliado correspondente.
