@@ -16,4 +16,4 @@ url_loja: "https://link.amazon/B0dbmSvTl"
 - Ajuda a compreender a Libras como língua.
 - Indicado para estudo e formação.
 
-> **Link comercial provisório:** o endereço acima é uma página de busca/compra e ainda não é o link de afiliado do Espaço Libras.
+> **Link de afiliado:** esta recomendação pode gerar comissão para o Espaço Libras, sem custo adicional para você.

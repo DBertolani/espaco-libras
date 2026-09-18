@@ -12,4 +12,4 @@ O **Pôster pedagógico de Libras** é uma opção de material visual para salas
 
 O anúncio consultado descreve material plastificado, voltado para uso visual e pedagógico.
 
-> **Link comercial provisório:** ainda não é o link de afiliado do Espaço Libras.
+> **Link de afiliado:** esta recomendação pode gerar comissão para o Espaço Libras, sem custo adicional para você.

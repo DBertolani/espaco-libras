@@ -18,4 +18,4 @@ Há diferentes modelos em marketplaces, incluindo versões sem fio com várias l
 
 Antes da compra, vale conferir alcance, alimentação elétrica, quantidade de luzes, frequência de acionamento e avaliações do anúncio escolhido.
 
-> **Link comercial provisório:** esta página é uma busca. O anúncio específico e o link de afiliado serão definidos posteriormente.
+> **Link de afiliado:** esta recomendação pode gerar comissão para o Espaço Libras, sem custo adicional para você.

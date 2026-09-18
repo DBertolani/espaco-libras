@@ -16,4 +16,4 @@ O **Jogo da Memória em Libras** reúne opções de jogos educativos com sinais 
 - Pode apoiar o contato inicial com sinais.
 - Há diferentes formatos e fabricantes disponíveis.
 
-> **Link comercial provisório:** esta página é uma busca no Mercado Livre. O link de afiliado deverá ser definido depois da escolha do anúncio específico.
+> **Link de afiliado:** esta recomendação pode gerar comissão para o Espaço Libras, sem custo adicional para você.

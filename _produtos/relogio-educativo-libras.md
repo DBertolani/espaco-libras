@@ -12,4 +12,4 @@ O **Relógio Educativo Libras** é um recurso pedagógico encontrado em anúncio
 
 O anúncio pesquisado aparecia como produto da loja Mimos Para Todos Brinquedos, com avaliação 4,8 e preço observado de R$ 49,90 na pesquisa.
 
-> **Link comercial provisório:** esta é uma página de busca. O anúncio específico e o link de afiliado serão definidos posteriormente.
+> **Link de afiliado:** esta recomendação pode gerar comissão para o Espaço Libras, sem custo adicional para você.
