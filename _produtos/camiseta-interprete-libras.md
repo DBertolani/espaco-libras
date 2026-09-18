@@ -17,6 +17,6 @@ A **Camiseta Intérprete Libras** é uma opção de vestuário para profissionai
 - **Variações:** tamanhos P, M, G e GG foram informados no anúncio consultado.
 - **Vendedor:** LDK STORE
 
-O anúncio consultado apresentava estoque disponível e preço de R$ 49,90 no momento da pesquisa. citeturn3search1
+O anúncio consultado apresentava estoque disponível e preço de R$ 49,90 no momento da pesquisa.
 
 > **Link comercial provisório:** ainda não é o link de afiliado do Espaço Libras.
