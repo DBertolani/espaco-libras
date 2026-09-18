@@ -23,6 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
+
 url: "https://dbertolani.github.io"
 
 github:
@@ -81,7 +82,7 @@ pageviews:
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
+# and there will be a toggle to switch the theme between light and dark
 # on the bottom left of the sidebar.
 #
 # Available options:
@@ -92,14 +93,13 @@ pageviews:
 theme_mode: # [light | dark]
 
 # The CDN endpoint for media resources.
-# Notice that once it is assigned, the CDN url
-# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
+# Notice that once it is assigned, the CDN url will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/favicons/logo-favicon.png
+avatar: /assets/img/logo.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -115,15 +115,15 @@ actions:
     url: "" # repository base URL, e.g. https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
     # Use dynamic or static URL for the edit link.
     # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.
-    # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
+    # Set to true to keep the URL unchanged, which means each post will share the same edit link.
     static_url: false # [ true | false ]
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
-  # The provider options are as follows:
+  # The provider options are as follows.
   disqus:
-    shortname: # fill in the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: # fill in the Disqus shortname. › https://help.disqus.com/en/articles/1717111/what-s-a-shortname
   # utterances options
   utterances:
     repo: # <gh-username>/<repo>
