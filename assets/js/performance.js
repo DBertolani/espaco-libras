@@ -100,7 +100,7 @@
     const criticalFonts = ['https://fonts.gstatic.com/s/sourcesanspro/...'];
 
     // Prefetch para recursos secundários
-    const prefetchResources = ['/espaco-libras/assets/js/dist/home.min.js'];
+    const prefetchResources = ['/assets/js/dist/home.min.js'];
 
     prefetchResources.forEach((resource) => {
       const link = document.createElement('link');
